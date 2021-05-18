@@ -26,9 +26,3 @@ build-packages:
   - pkg-config
   - libreadline-dev
   - libncurses5-dev
-build-snaps:
-  - go
-stage-snaps:
-  - ffmpeg/latest/edge
-stage-packages:
-  - git
