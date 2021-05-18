@@ -1,4 +1,4 @@
-name: sdm
+name: sdm-cli
 version: '0.0.1'
 summary: Command Line Interface to use Sidemash Cloud 
 description: |
@@ -14,10 +14,10 @@ confinement: classic
 base: core18
 
 parts:
-  sdm-cli-test:
+  sdm-cli:
     plugin: rust
     source: https://github.com/sidemash/cli.git
 
 apps:
-  sdm:
-    command: bin/sdm
+  sdm-cli:
+    command: bin/sdm-cli
