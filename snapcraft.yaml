@@ -20,4 +20,4 @@ parts:
 
 apps:
   sdm-cli:
-    command: bin/sdm-cli
+    command: bin/sidemash-cli
