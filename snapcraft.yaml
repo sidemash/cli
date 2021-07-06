@@ -1,8 +1,9 @@
-name: sdm-cli
-version: '0.0.1'
-summary: Command Line Interface to use Sidemash Cloud 
+name: sidemash
+#version: git # By specifying git for the version, the current git tag or commit will be used as the version string. Versions carry no semantic meaning in snaps.
+version: '0.0.1-alpha1'
+summary: Command Line Interface to use Sidemash Cloud
 description: |
-  sdm is a command line program for creating,
+  sidemash-cli is a command line program for creating,
   updating, deleting stream, stream-square:
   - Simple tasks should be easy.
   - Performance trade offs should be exposed
@@ -14,13 +15,13 @@ confinement: classic
 base: core18
 
 parts:
-  sdm-cli:
+  sidemash:
     plugin: rust
     source: https://github.com/sidemash/cli.git
 
 apps:
-  sdm-cli:
-    command: bin/sidemash-cli
+  sidemash:
+    command: bin/sidemash
 
 build-packages:
   - pkg-config
