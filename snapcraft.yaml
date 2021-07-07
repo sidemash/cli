@@ -19,10 +19,6 @@ parts:
     plugin: rust
     source: https://github.com/sidemash/cli.git
 
-apps:
-  sidemash:
-    command: bin/sidemash
-
 build-packages:
   - pkg-config
   - libreadline-dev
