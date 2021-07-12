@@ -24,7 +24,7 @@ build-packages:
   - libreadline-dev
   - libncurses5-dev
   - libssl-dev
-  -
+
 architectures:
   - build-on: s390x
   - build-on: ppc64el
