@@ -11,7 +11,7 @@ description: |
   - Composition should not come at the
     expense of performance.
 
-confinement: classic
+confinement: strict
 base: core18
 
 parts:
