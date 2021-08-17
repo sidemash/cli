@@ -1,6 +1,6 @@
 name: sidemash
 #version: git # By specifying git for the version, the current git tag or commit will be used as the version string. Versions carry no semantic meaning in snaps.
-version: '0.0.1-alpha1'
+version: '0.0.1-alpha3'
 summary: Command Line Interface to use Sidemash Cloud
 description: |
   sidemash-cli is a command line program for creating,
